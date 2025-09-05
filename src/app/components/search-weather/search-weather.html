@@ -1,0 +1,14 @@
+<form [formGroup]="formGroup"
+	class="wrapper-input"
+  (ngSubmit)="onSearch()">
+	<input class="input-search"
+		type="text"
+		name="search"
+		placeholder="Insira aqui o nome da cidade"
+		formControlName="search" />
+
+	<button class="icon-button" type="submit">
+		<img src="assets/icons/loupe.png"
+			alt="Pesquisar">
+	</button>
+</form>

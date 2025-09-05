@@ -1,0 +1,38 @@
+.wrapper-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--branco);
+  color: var(--cinza-claro);
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.input-search {
+  color: var(--cinza-escuro);
+  flex: 1;
+  border: none;
+  font-size: 1.2rem;
+  background: transparent;
+  padding: 0.5rem;
+}
+
+.input-search:focus,
+.input-search:focus-visible {
+  outline: none;
+}
+
+.icon-button {
+  width: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+.icon-button img {
+  width: 20px;
+  display: block;
+  background: transparent;
+}

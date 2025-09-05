@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { SearchWeather } from "./components/search-weather/search-weather";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [SearchWeather],
   templateUrl: './app.html',
   styleUrls: ['./app.scss']
 })

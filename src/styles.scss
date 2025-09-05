@@ -15,8 +15,13 @@
   max-height: 100vh;
   background: var(--laranja-primary);
   background: linear-gradient(90deg, rgba(255, 140, 0, 1) 100%, rgba(255, 255, 0, 1) 14%);
+}
 
+body {
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 6% 0;
 }
